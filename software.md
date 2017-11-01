@@ -18,8 +18,8 @@
 
 ## Mac Defaults
 
-### Reduce delay for tooltips
 ```
+# Reduce delay for tooltips
 defaults write -g NSInitialToolTipDelay -int 300
 defaults write com.apple.screencapture type -string "png"
 ```
