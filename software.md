@@ -16,9 +16,9 @@
 - Image editing - https://affinity.serif.com/en-gb/photo/
 
 
-= Mac Defaults =
+## Mac Defaults
 
-# Reduce delay for tooltips
+### Reduce delay for tooltips
 defaults write -g NSInitialToolTipDelay -int 300
 defaults write com.apple.screencapture type -string "png"
 
