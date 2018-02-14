@@ -1,3 +1,5 @@
+## Software
+
 - Console: HomeBrew
 - Console: tmux
 - Console: midnight commander (mc)
@@ -12,11 +14,19 @@
 - Windows Term: ConEmu
 - Image editing - https://affinity.serif.com/en-gb/photo/
 
+## Commands
 
-## Mac Defaults
+### Mac Defaults
 
 ```
 # Reduce delay for tooltips
 defaults write -g NSInitialToolTipDelay -int 300
 defaults write com.apple.screencapture type -string "png"
+```
+
+### macOS
+
+To set an environment variable visible by applications in Mac OS X:
+```
+launchctl setenv MYPATH myvar
 ```
