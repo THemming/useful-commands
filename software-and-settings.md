@@ -1,4 +1,6 @@
-## Software
+# Software
+
+## Mac
 
 - Console: HomeBrew
 - Console: tmux
@@ -7,26 +9,14 @@
 - Quicklook
  - brew cask install qlcolorcode
  - brew cask install quicklook-json
-- Screencast: Kap, Monosnap
+- Mac Window Management: Spectacle, Cinch
+- Screencast: Kap
 - Password storage: KeeWeb
 - Chrome: LastPass, uBlock Origin
 - Font: Fira Code
-- Windows Term: ConEmu
+- Editors: Sublime Text 3, VS Code
 - Image editing - https://affinity.serif.com/en-gb/photo/
 
-## Commands
+## Windows
 
-### Mac Defaults
-
-```
-# Reduce delay for tooltips
-defaults write -g NSInitialToolTipDelay -int 300
-defaults write com.apple.screencapture type -string "png"
-```
-
-### macOS
-
-To set an environment variable visible by applications in Mac OS X:
-```
-launchctl setenv MYPATH myvar
-```
+- Windows Term: ConEmu
