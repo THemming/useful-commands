@@ -16,8 +16,7 @@ MacOS commands
 | Command | Notes |
 | ------- | ----- |
 | sandbox-exec -n no-network (no-write, no-internet) /path/to/app | Run app in sandbox |
-
-[More Info](http://reverse.put.as/wp-content/uploads/2011/09/Apple-Sandbox-Guide-v1.0.pdf)
+| launchctl setenv MYPATH myvar | Set an environment variable visible by applications [More Info](http://reverse.put.as/wp-content/uploads/2011/09/Apple-Sandbox-Guide-v1.0.pdf) |
 
 TMUX
 ----
