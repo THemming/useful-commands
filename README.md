@@ -21,13 +21,16 @@ Midnight Commander
 TMUX
 ----
 
-| Keys   |             | Usage notes | 
-| ------ | ----------- | ----------- |
-| Ctrl-b | Enter command mode | |
-| Ctrl-b % | Split screen horizontally | |
-| Ctrl-b " | Split screen vertically | |
-
-[More Info](https://gist.github.com/MohamedAlaa/2961058)
+- Quit from command: `q`
+- Start selection mode: `Ctrl-b [`
+- Copy: `y`
+- Paste: `Ctrl-b p`
+- Help: `Ctrl-b ?`
+- Split horizontal: `Ctrl-b %`
+- Split vertical: `Ctrl-b "`
+- Escape selection mode: `Esc-Enter`
+- Join panes: `join-pane (-h) -s1 -t0`
+- break pane: `Ctrl-b !`
 
 MacOS commands
 --------------
