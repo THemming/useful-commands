@@ -1,11 +1,19 @@
 # Mac Defaults
 
-### Reduce delay for tooltips
+## Reduce Dock show delay
+
 ```
-defaults write -g NSInitialToolTipDelay -int 300
+defaults write com.apple.dock autohide-time-modifier -int 0; killall Dock
 ```
 
-### Screen capture
+## Reduce delay for tooltips
+
+```
+defaults write -g NSInitialToolTipDelay -int 300; killall Dock
+```
+
+## Screen capture
+
 ```
 defaults write com.apple.screencapture type -string "png"
 ```
